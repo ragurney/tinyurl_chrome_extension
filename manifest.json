@@ -1,0 +1,22 @@
+{
+  "name": "TinyURL Extension",
+  "description": "Extension to quickly create and copy Tiny URLs",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "notifications",
+    "clipboardWrite"
+  ],
+  "action": {
+    "default_title": "Copy Tiny URL",
+    "default_icon": "images/link.png"
+  },
+  "background": {
+    "service_worker": "background/background.js",
+    "type": "module"
+  },
+  "options_page": "options/options.html"
+}
