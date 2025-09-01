@@ -1,2 +1,2 @@
 # TinyURL Chrome Extension
-A bare bones extension to turn your current URL into a TinyURL with a click. 
+A bare bones extension to add your current URL to your clipboard as a TinyURL with a click. 
