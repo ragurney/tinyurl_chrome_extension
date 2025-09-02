@@ -15,6 +15,11 @@ export class Badge {
         }, 3000);
     }
 
+    static showPendingBadge() {
+        chrome.action.setBadgeText({ text: "..." });
+        chrome.action.setBadgeBackgroundColor({ color: "#808080" });
+    }
+
     static clearErrorBadge() {
         chrome.action.setBadgeText({ text: "" });
     }
