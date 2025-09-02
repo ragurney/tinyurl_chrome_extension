@@ -1,5 +1,5 @@
 import { LocalStorage } from '../storage/LocalStorage.js';
-import { Notification } from '../notificaitons/Notificaiton.js';
+import { Notification } from '../notifications/Notification.js';
 
 export class TinyURL {
   static API_URI = "https://api.tinyurl.com";
