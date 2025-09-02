@@ -1,7 +1,7 @@
 # TinyURL Chrome Extension
 A bare bones extension to add your current URL to your clipboard as a TinyURL with a click. 
 
-# Setup
+## Setup
 Once the extension is installed, you will need to get a TinyURL API token and add it to the extension:
 1. Go to [this link](https://tinyurl.com/app/settings/api) (create an account if you don't already have one first) and generate + copy an API token.
 2. Pin the extension: 
@@ -15,7 +15,7 @@ Once the extension is installed, you will need to get a TinyURL API token and ad
 
 The extension should now be ready to be used. You should see a green checkmark on successful TinyURL generation. 
 
-# Issues
+## Issues
 If you see a red 'X' instead, check the console log for further information. Feel free to open an issue with bug and reproduction details.
 
 
